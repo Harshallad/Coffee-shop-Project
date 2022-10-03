@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   height: 100vh;
+}
+/* header and Nav */
+.logo {
+    min-height: 10%;
+    font-size: 3.5rem;
+    background-color:#7F5539 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.navbar{
+    display: flex;
+    background-color: #E6CCB2;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family: 'outfit', sans-serif;
+    font-size: 1.8rem ;
+    color: #7F5539;
+    margin: 0 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar a:hover{
+    color: white;
+}
+/* End header and Nav */
+
+.wellcome{
+    min-height: 85%;
+    background: url(./image/wellcome.jpg);
+    background-position: bottom ;
+    background-position: 25%;
+ 
+}
+
+.heading h2{
+    font-size: 4.5rem;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    color: white;
+    line-height: 4rem;
+}
+.subheading h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.btn{
+    margin-top: 20px;
+    margin: 20px 0;
+    margin-right:20px ;
+    padding: 10px 20px;
+    background: none;
+    border: 2px solid white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: white;
+    transition: color , background-color , 0.3s ease;
+}
+
+
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.fullwellcome{
+    padding: 5% 10%;
+}
+
+
+/* tode special coloum */
+.today{
+    background: url(./image/nicholas-grande-bUdaT1WLScI-unsplash.png);
+}
+.today{
+    height: 100vh;
+}
+.toy{
+    padding: 30px;
+}
+.toy h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: #f3d5b5;
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.mainctn{
+    display: flex;
+    padding:  0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px ;
+    flex-wrap: wrap;
+}
+.container{
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+.image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.image img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: cover;
+    border-radius: 10px;
+}
+
+.name2{
+    color: black;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 4px;
+}
+
+.info{
+    padding: 30px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+
+}
+
+.footer{
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: #E6CCB2;
+    padding: 20px;
+}
+.visit{
+    border-right: 3px solid rgba(58, 57, 57, 0.452);
+    padding: 0 100px;
+}
+.visit h2{
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'outfit',sans-serif;
+    line-height: 60px;
+    text-transform: uppercase;
+ 
+
+}
+
+.visit h2 span{
+    color: #7F5539;
+    text-decoration: underline 5px;
+}
+
+.follow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    font-family: 'outfit',sans-serif;
+    text-transform: uppercase;
+    margin-left: 05%;
+    color: white;
+}
+.links{
+    min-width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin:20px;
+}
+
+
+/* abut us */
+.aboutus{
+padding: 8vh 20vh;
+background-image: url(./image/aboutus/nan.jpg);
+background-size: cover;
+}
+.about{
+    background-color: rgba(0, 0, 0, 0.171);
+    backdrop-filter: blur(10px);
+    padding: 3vh;
+    border-radius: 15px;
+}
+.head{
+    font-size: 4.5rem;
+    font-family: 'EB Garamond', serif;
+    font-weight: 200;
+    color:#f3d5b5;
+    text-transform: capitalize;
+    border-bottom: 5px solid #f3d5b5;
+    margin-bottom:-5px ;
+}
+.paragraph p{
+    font-size: 1.5rem;
+    font-family: 'outfit',sans-serif;
+    font-weight: 200;
+    margin-top:  35px;
+    line-height: 25px;
+    color: white;
+}
+.ourproduts{
+    padding: 8vh 20vh;
+    height: auto;
+}
+.ourproduts{
+    background-image: url(./image/aboutus/nan2.jpg);
+    background-size: cover;
+}
+
+.ctnbg{
+    background-color: rgba(0, 0, 0, 0.171);
+    backdrop-filter: blur(5px);
+    padding: 3vh;
+    border-radius: 15px; 
+}
+
+.ctnpro{
+    display: flex;
+    padding:  0px 50px;
+    margin:  0 20px ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.pros{
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin:20px;
+}
+.proimg, .proname{
+    margin: 10px 20px;
+    font-family: 'outfit',sans-serif;
+}
+.proimg img{
+    border-radius: 10px;
+}
+.ourproduts h3{
+    font-size: 4.5rem;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    color:#f3d5b5;
+    text-transform: capitalize;
+    border-bottom: 5px solid #f3d5b5;
+    margin-bottom: 20px;
+}
+.proname h2{
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+/* abut us */
+.contact{
+    background: url(./image/haha.jpg);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+}
+
+.address{
+    font-size: 2rem;
+    font-family: 'outfit', serif;
+    font-weight: 400;
+    color:#ffff;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.addbg{
+    width: 85%;
+    background-color: rgba(0, 0, 0, 0.171);
+    backdrop-filter: blur(5px);
+    padding: 1.8%;
+    border-radius: 15px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
